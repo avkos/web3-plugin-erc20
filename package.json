@@ -1,14 +1,23 @@
 {
-  "name": "web3-plugin-erc20",
-  "version": "1.0.0",
+  "name": "web3-plugin-my-erc20",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build",
+    "build:web": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "web3": "^4.1.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
